@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class AnagramApplication {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter first string: ");
-        String s1 = scanner.nextLine();
+        String s1 = sc.nextLine();
         System.out.print("Enter second string: ");
-        String s2 = scanner.nextLine();
+        String s2 = sc.nextLine();
         scanner.close();
 
         if (StringAnagrams(s1, s2)) {
