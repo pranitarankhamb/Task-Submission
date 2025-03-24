@@ -19,12 +19,12 @@ class Employee {
 
 public class EmployeeApplication {
     public static void main(String[] args) {
-        List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee(1, "Ram", 53000));
-        employees.add(new Employee(2, "Shyam", 66000));
-        employees.add(new Employee(3, "Ramesh", 50000));
+        List<Employee> employee = new ArrayList<>();
+        employee.add(new Employee(1, "Ram", 53000));
+        employee.add(new Employee(2, "Shyam", 66000));
+        employee.add(new Employee(3, "Ramesh", 50000));
 
-        for (Employee emp : employees) {
+        for (Employee emp : employee) {
             emp.displayDetails();
         }
     }
